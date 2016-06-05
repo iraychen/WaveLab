@@ -1,0 +1,58 @@
+﻿html{scrollbar-face-color:#eeeeff; scrollbar-3dlight-color:#9999ff; scrollbar-darkshadow-color:#9999ff;scrollbar-base-color:#fefefe;scrollbar-shadow-color: #FFF; scrollbar-highlight-color: #FFF;  scrollbar-track-color:#FFF;scrollbar-arrow-color:#4A6184;}
+
+BODY{BORDER: 0;FONT-WEIGHT: normal;FONT-SIZE: 12px;COLOR: #333333;FONT-FAMILY: Arial, Helvetica, sans-serif;BACKGROUND-COLOR: #fefefe;margin:0px;padding:0}
+
+TH{FONT-WEIGHT:normal;FONT-SIZE: 12px; COLOR: #001340;FONT-FAMILY: Arial, sans-serif;BACKGROUND-COLOR: #48bfe9;}
+
+TD{FONT-SIZE: 12px; FONT-FAMILY: Arial}
+
+A{text-decoration:none;font-family:Arial;color:#333399;}
+
+A:hover{text-decoration:underline;}
+
+A:visited{text-decoration:none;}
+
+@media Print{.noprint{ display:none}}
+
+.common-gridview{text-align :left;}
+.common-gridview th{text-align:left;}
+.common-gridview td{text-align:left;}
+
+.import-gridview{text-align :left;padding:1;border-collapse:collapse;border:solid 1px gray;}
+.import-gridview th{border:solid 1px gray;}
+.import-gridview td{border:solid 1px gray;}
+
+.setup-table{text-align :left;padding:1;border-collapse:collapse;border:solid 1px #9999ff;}
+.setup-table th{border:solid 1px #9999ff;}
+.setup-table td{border:solid 1px #9999ff;}
+
+.common-table{text-align :left;}
+.common-table th{text-align :left;}
+.common-table td{text-align :left;}
+
+.form-table{ margin:5px 5px}
+.form-table tr{height:30px}
+
+.cl-table{text-align :left;padding:1;border-collapse:collapse;border:0;}
+
+.cl-table th{border:0;}
+
+.cl-table td{border:0;}
+
+.report-table{font-weight:normal;text-align:left;font-stretch:normal; border:0;}
+
+.report-table tr{height:35px;}
+
+table{margin :0;padding:0;}
+
+table .title-table{background-color:#99cccc;}
+
+fieldset{border:solid 1px #bfbfbf;border-radius: 4px;}
+
+.paginator {font: 12px Arial, Helvetica, sans-serif; padding:2px 0px;vertical-align:baseline; }
+.paginator a {border:solid 1px #ccc;color:#0063dc;cursor:pointer; }
+.paginator a:visited { border: solid 1px #ddd; background-color: #fff;}
+.paginator a:hover {border:solid 1px #F50;color:#f60;}
+.paginator a,.paginator a:visited,.paginator a:hover{ padding:1px 2px;text-decoration:none; }
+
+.heading {color:#5377A9;font-family:Arial, Sans-Serif;font-weight:bold;font-size:1em; background-color:#d4d0c8;}

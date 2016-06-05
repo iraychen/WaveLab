@@ -1,0 +1,34 @@
+﻿
+<asp:NewButton runat="server" CssClass="form-button" />
+
+<asp:ImageButton runat="server" ImageUrl="~/images/back.gif" SkinId="imgBtnSkinBack"/>
+<asp:ImageButton runat="server" ImageUrl="~/images/refresh.png" SkinId="imgBtnSkinRefresh"/>
+<asp:ImageButton runat="server" ImageUrl="~/images/search.gif" SkinId="imgBtnSkinSearch"/>
+<asp:ImageButton runat="server" ImageUrl="~/images/print.gif" SkinId="imgBtnSkinPrint"/>
+<asp:ImageButton runat="server" ImageUrl="~/images/gallery.png" SkinId="imgBtnSkinGallery"/>
+<asp:ImageButton runat="server" ImageUrl="~/images/arrow.png" SkinId="imgBtnSkinArrow"/>
+
+<asp:Image runat="server" ImageUrl="~/images/navigator.png" SkinId="ImgskinTitle" Width="20"/>
+<asp:Image runat="server" ImageUrl="~/images/new.gif" SkinId="ImgskinNew"/>
+<asp:Image runat="server" ImageUrl="~/images/logviewer.png" SkinId="skinImgViewer" Width="20"/>
+<asp:Image runat="server" ImageUrl="~/images/arrow_blue_right.gif" SkinId="imgBlueArrow" />
+<asp:Image runat="server" ImageUrl="~/images/arrow.png" SkinId="imgArrow" />
+<asp:Image runat="server" ImageUrl="~/images/Gnome-Emblem-Shared.png" SkinId="ImgskinSearchTitle" Width="20"/>
+<asp:Image runat="server" ImageUrl="~/images/activity_monitor_chart.png" SkinId="imgSkinReport" Width="20"/>
+
+
+<asp:Label runat="server" Font-Bold ="true" Font-Underline="true" SkinId="skinTitle" />
+<asp:Label runat="server" Font-Bold ="true" Font-Underline="true" SkinId="skinCTitle"  font-size="14px"/>
+<asp:Label runat="server" Font-Bold ="true" Font-Underline="true" SkinId="skinRptTitle"  font-size="15px"/>
+<asp:Label runat="server" Font-Bold="True"  SkinId="skinEnvironment" ForeColor="DarkBlue" font-size="15px"/>
+										                                    
+<asp:GridView runat="server" Width="100%" SkinId="skinGridView"  CellPadding="1" CellSpacing ="1"  CssClass="common-gridview"  GridLines ="None">
+ <HeaderStyle HorizontalAlign="Left" />
+ <RowStyle BackColor ="#FFFFFF" />
+ <AlternatingRowStyle BackColor="#e6e6e6" />
+</asp:GridView>
+
+<webdiyer:AspNetPager  runat="server" UrlPaging="false"  AlwaysShow="true"  ShowCustomInfoSection="Left"  LayoutType ="Table" 
+Width="100%" MoreButtonType="Text"  CurrentPageButtonPosition="Center"  
+ShowPageIndexBox="Auto" Wrap="False" CssClass="paginator"
+/>

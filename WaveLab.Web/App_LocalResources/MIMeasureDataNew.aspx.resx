@@ -1,0 +1,1072 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tbxAGCIPRR3ChannelResource1.Text" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="tbxAGCIPRR3ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ddlSNRModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCIPRChannelResource1.Text" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="lblAGCIPRChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCIPRLowerLimitResource1.Text" xml:space="preserve">
+    <value>下门限</value>
+  </data>
+  <data name="lblAGCIPRLLowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCIPRUpperLimitResource1.Text" xml:space="preserve">
+    <value>上门限</value>
+  </data>
+  <data name="lblAGCIPRUpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCIPRModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblAGCIPRModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCIPRResource1.Text" xml:space="preserve">
+    <value>收信门限(for IP Radio)</value>
+  </data>
+  <data name="lblAGCIPRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCIPRTargetResource1.Text" xml:space="preserve">
+    <value>下门限(dBm) 6G -63     &lt;BR/&gt;
+            7G -63    &lt;BR/&gt;
+            8G -63    &lt;BR/&gt;
+           11G -62   &lt;BR/&gt;
+           13G -62&lt;BR/&gt;
+           15G -62&lt;BR/&gt;
+           18G -62&lt;BR/&gt;
+          23G -61.5&lt;br/&gt;上门限(dBm)     -25</value>
+  </data>
+  <data name="lblAGCIPRTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMChannelResource1.Text" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="lblAGCMChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMLowerLimitResource1.Text" xml:space="preserve">
+    <value>下门限</value>
+  </data>
+  <data name="lblAGCMLowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMUpperAttenuationResource1.Text" xml:space="preserve">
+    <value>衰减量</value>
+  </data>
+  <data name="lblAGCMUpperAttenuationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMUpperLimitResource1.Text" xml:space="preserve">
+    <value>上门限</value>
+  </data>
+  <data name="lblAGCMUpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblAGCMModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCXCRChannelResource1.Text" xml:space="preserve">
+    <value>通道</value>
+  </data>
+  <data name="lblAGCXCRChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCXCRLowerLimitResource1.Text" xml:space="preserve">
+    <value>下门限</value>
+  </data>
+  <data name="lblAGCXCRLowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCXCRUpperLimitResource1.Text" xml:space="preserve">
+    <value>上门限</value>
+  </data>
+  <data name="lblAGCXCRUpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCXCRModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblAGCXCRModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCXCRResource1.Text" xml:space="preserve">
+    <value>收信门限(for xcr)</value>
+  </data>
+  <data name="lblAGCXCRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCXCRTargetResource1.Text" xml:space="preserve">
+    <value>128TCM 上门限  -21.5&lt;BR/&gt;
+     下门限  -68&lt;BR/&gt;
+256TCM 上门限  -22.5&lt;BR/&gt;
+     下门限  -63</value>
+  </data>
+  <data name="lblAGCXCRTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAirtightResource1.Text" xml:space="preserve">
+    <value>气密</value>
+  </data>
+  <data name="lblAirtightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAirtightTargetResource1.Text" xml:space="preserve">
+    <value>0.4Kpa leak MAX accepted</value>
+  </data>
+  <data name="lblAirtightTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCodeResource1.Text" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="lblCodeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFTCAISResource1.Text" xml:space="preserve">
+    <value>AIS</value>
+  </data>
+  <data name="lblFTCAISResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFTCErrorNoResource1.Text" xml:space="preserve">
+    <value>误码数</value>
+  </data>
+  <data name="lblFTCErrorNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFTCErrorSecondsResource1.Text" xml:space="preserve">
+    <value>严重误码秒</value>
+  </data>
+  <data name="lblFTCErrorSecondsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFTCModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblFTCModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFTCResource1.Text" xml:space="preserve">
+    <value>快速温变(for G3、XMC、一体机)</value>
+  </data>
+  <data name="lblFTCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMicroVibrationErrorCountResource1.Text" xml:space="preserve">
+    <value>误码数</value>
+  </data>
+  <data name="lblMicroVibrationErrorCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMicroVibrationModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblMicroVibrationModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMicroVibrationResource1.Text" xml:space="preserve">
+    <value>微震动误码数</value>
+  </data>
+  <data name="lblMicroVibrationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMicroVibrationTargetResource1.Text" xml:space="preserve">
+    <value>零误码</value>
+  </data>
+  <data name="lblMicroVibrationTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblModelResource1.Text" xml:space="preserve">
+    <value>型号</value>
+  </data>
+  <data name="lblModelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative20Resource1.Text" xml:space="preserve">
+    <value>-20</value>
+  </data>
+  <data name="lblNegative20Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative30Resource1.Text" xml:space="preserve">
+    <value>-30</value>
+  </data>
+  <data name="lblNegative30Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative40Resource1.Text" xml:space="preserve">
+    <value>-40</value>
+  </data>
+  <data name="lblNegative40Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative50Resource1.Text" xml:space="preserve">
+    <value>-50</value>
+  </data>
+  <data name="lblNegative50Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative60Resource1.Text" xml:space="preserve">
+    <value>-60</value>
+  </data>
+  <data name="lblNegative60Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative70Resource1.Text" xml:space="preserve">
+    <value>-70</value>
+  </data>
+  <data name="lblNegative70Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative80Resource1.Text" xml:space="preserve">
+    <value>-80</value>
+  </data>
+  <data name="lblNegative80Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative90Resource1.Text" xml:space="preserve">
+    <value>-90</value>
+  </data>
+  <data name="lblNegative90Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOrderNoResource1.Text" xml:space="preserve">
+    <value>作业单号</value>
+  </data>
+  <data name="lblOrderNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRSSIModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblRSSIModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRSSIResource1.Text" xml:space="preserve">
+    <value>RSSI</value>
+  </data>
+  <data name="lblRSSIResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSerialNoResource1.Text" xml:space="preserve">
+    <value>序列号</value>
+  </data>
+  <data name="lblSerialNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNRIFPointResource1.Text" xml:space="preserve">
+    <value>中频点</value>
+  </data>
+  <data name="lblSNRIFPointResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNRLocalLeftResource1.Text" xml:space="preserve">
+    <value>本端</value>
+  </data>
+  <data name="lblSNRLocalLeftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNRLocalRightResource1.Text" xml:space="preserve">
+    <value>本端</value>
+  </data>
+  <data name="lblSNRLocalRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNRModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblSNRModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNRResource1.Text" xml:space="preserve">
+    <value>SNR(for m协议)</value>
+  </data>
+  <data name="lblSNRResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSNRTargetResource1.Text" xml:space="preserve">
+    <value>＞34.5dBfor 26G&lt;br/&gt;＞32  dBfor 38G</value>
+  </data>
+  <data name="lblSNRTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemG3XMCAISResource1.Text" xml:space="preserve">
+    <value>AIS</value>
+  </data>
+  <data name="lblTemG3XMCAISResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemG3XMCErrorNoResource1.Text" xml:space="preserve">
+    <value>误码数</value>
+  </data>
+  <data name="lblTemG3XMCErrorNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemG3XMCErrorSecondsResource1.Text" xml:space="preserve">
+    <value>严重误码秒</value>
+  </data>
+  <data name="lblTemG3XMCErrorSecondsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemG3XMCModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblTemG3XMCModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemG3XMCResource1.Text" xml:space="preserve">
+    <value>温循(for G3、XMC)</value>
+  </data>
+  <data name="lblTemG3XMCResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6101LossRateResource1.Text" xml:space="preserve">
+    <value>丢包率</value>
+  </data>
+  <data name="lblTemOML6101LossRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6101Resource1.Text" xml:space="preserve">
+    <value>温循(for 一体机ML-6101(GE))</value>
+  </data>
+  <data name="lblTemOML6101Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6101TargetResource1.Text" xml:space="preserve">
+    <value>掉包率：0.000%</value>
+  </data>
+  <data name="lblTemOML6101TargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6202Resource1.Text" xml:space="preserve">
+    <value>温循(for 一体机ML-6202)</value>
+  </data>
+  <data name="lblTemOML6202Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6202TargetResource1.Text" xml:space="preserve">
+    <value>误码仪上无LOS、LOF和SYNC告警，累计误码在500bit以下均合格。</value>
+  </data>
+  <data name="lblTemOML6202TargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6202TotalErrorResource1.Text" xml:space="preserve">
+    <value>累计误码</value>
+  </data>
+  <data name="lblTemOML6202TotalErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6205Resource1.Text" xml:space="preserve">
+    <value>温循(for 一体机ML-6205)</value>
+  </data>
+  <data name="lblTemOML6205Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6205TargetResource1.Text" xml:space="preserve">
+    <value>误码仪上无LOS、LOF和SYNC告警，累计误码在500bit以下均合格。</value>
+  </data>
+  <data name="lblTemOML6205TargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemOML6205TotalErrorResource1.Text" xml:space="preserve">
+    <value>累计误码</value>
+  </data>
+  <data name="lblTemOML6205TotalErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemPTNErrorSecondsResource1.Text" xml:space="preserve">
+    <value>误码秒</value>
+  </data>
+  <data name="lblTemPTNErrorSecondsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemPTNLossRateResource1.Text" xml:space="preserve">
+    <value>丢包率</value>
+  </data>
+  <data name="lblTemPTNLossRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemPTNModeResource1.Text" xml:space="preserve">
+    <value>业务</value>
+  </data>
+  <data name="lblTemPTNModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemPTNResource1.Text" xml:space="preserve">
+    <value>温循(for PTN机)</value>
+  </data>
+  <data name="lblTemPTNResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource1.Text" xml:space="preserve">
+    <value>64QAM 7M/ 31Mbps for 26G</value>
+  </data>
+  <data name="ListItemResource1.Value" xml:space="preserve">
+    <value>64QAM 7M/ 31Mbps for 26G</value>
+  </data>
+  <data name="ListItemResource2.Text" xml:space="preserve">
+    <value>256QAM 27.5M/181Mbps for 38G</value>
+  </data>
+  <data name="ListItemResource2.Value" xml:space="preserve">
+    <value>256QAM 27.5M/181Mbps for 38G</value>
+  </data>
+  <data name="ltlCodeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlModelResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlOrderNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlSerialNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>手动测试记录</value>
+  </data>
+  <data name="tbxAGCIPRR1ChannelResource1.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="tbxAGCIPRR1ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR2ChannelResource1.Text" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="tbxAGCIPRR2ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR3LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR3LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR3UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR3UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR1LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR1LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR1UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR1UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR2LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR2LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRModeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR2UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCIPRR2UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2ChannelResource1.Text" xml:space="preserve">
+    <value>H</value>
+  </data>
+  <data name="tbxAGCMR2ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1ChannelResource1.Text" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="tbxAGCMR1ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2LowerAttenuationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2LowerAttenuationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2UpperAttenuationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2UpperAttenuationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR2UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1LowerAttenuationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1LowerAttenuationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1UpperAttenuationResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1UpperAttenuationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMR1UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCMModeResource1.Text" xml:space="preserve">
+    <value>256QAM/55M/366Mbps</value>
+  </data>
+  <data name="tbxAGCMModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR2ChannelResource1.Text" xml:space="preserve">
+    <value>256TCM(H)</value>
+  </data>
+  <data name="tbxAGCXCRR2ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR1ChannelResource1.Text" xml:space="preserve">
+    <value>128TCM(L)</value>
+  </data>
+  <data name="tbxAGCXCRR1ChannelResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR2LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR2LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR2UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR2UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR1LowerLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR1LowerLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR1UpperLimitResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR1UpperLimitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAGCXCRR1ModeResource1.Text" xml:space="preserve">
+    <value>128TCM</value>
+  </data>
+  <data name="tbxAGCXCRR1ModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAirtightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxAirtightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxFTCErrorNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxFTCErrorNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxFTCErrorSecondsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxFTCErrorSecondsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxFTCModeResource1.Text" xml:space="preserve">
+    <value>QPSK/7M</value>
+  </data>
+  <data name="tbxFTCModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxlblFTCAISResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxlblFTCAISResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxlblTemG3XMCAISResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxlblTemG3XMCAISResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxMicroVibrationErrorCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxMicroVibrationErrorCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxMicroVibrationModeResource1.Text" xml:space="preserve">
+    <value>256QAM/55M/366Mbps</value>
+  </data>
+  <data name="tbxMicroVibrationModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative120Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative120Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative130Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative130Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative140Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative140Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative150Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative150Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative160Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative160Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative170Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative170Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative180Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative180Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative190Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative190Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative220Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative220Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative230Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative230Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative240Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative240Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative250Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative250Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative260Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative260Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative270Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative270Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative280Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative280Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative290Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxNegative290Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxRSSIMode1Resource1.Text" xml:space="preserve">
+    <value>256AM/7M/44Mbps</value>
+  </data>
+  <data name="tbxRSSIMode1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxRSSIMode2Resource1.Text" xml:space="preserve">
+    <value>256QAM/55M/366Mbps</value>
+  </data>
+  <data name="tbxRSSIMode2Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxSNRIFPointResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxSNRIFPointResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxSNRLocalLeftResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxSNRLocalLeftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxSNRLocalRightResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxSNRLocalRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemG3XMCErrorNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemG3XMCErrorNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemG3XMCErrorSecondsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemG3XMCErrorSecondsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemG3XMCModeResource1.Text" xml:space="preserve">
+    <value>128QAM/28M</value>
+  </data>
+  <data name="tbxTemG3XMCModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemOML6101LossRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemOML6101LossRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemOML6202TotalErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemOML6202TotalErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemOML6205TotalErrorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemOML6205TotalErrorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemPTNErrorSecondsResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemPTNErrorSecondsResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemPTNLossRateResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemPTNLossRateResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemPTNModeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="tbxTemPTNModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMLowerAttenuationResource1.Text" xml:space="preserve">
+    <value>衰减量</value>
+  </data>
+  <data name="lblAGCMLowerAttenuationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="existsMsg" xml:space="preserve">
+    <value>该序列号已经存在,请重新选择！</value>
+  </data>
+  <data name="lblAGCMResource1.Text" xml:space="preserve">
+    <value>收信门限(for m协议)</value>
+  </data>
+  <data name="lblAGCMResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource3.Text" xml:space="preserve">
+    <value>256QAM/56M</value>
+  </data>
+  <data name="ListItemResource3.Value" xml:space="preserve">
+    <value>256QAM/56M</value>
+  </data>
+  <data name="ListItemResource4.Text" xml:space="preserve">
+    <value>256QAM/40M</value>
+  </data>
+  <data name="ListItemResource4.Value" xml:space="preserve">
+    <value>256QAM/40M</value>
+  </data>
+  <data name="ListItemResource5.Text" xml:space="preserve">
+    <value>256QAM/28M</value>
+  </data>
+  <data name="ListItemResource5.Value" xml:space="preserve">
+    <value>256QAM/28M</value>
+  </data>
+  <data name="tbxAGCXCRR2ModeResource1.Text" xml:space="preserve">
+    <value>256TCM</value>
+  </data>
+  <data name="tbxAGCXCRR2ModeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAGCMTargetResource1.Text" xml:space="preserve">
+    <value>上门限   -24&lt;BR/&gt;
+下门限 -59.5</value>
+  </data>
+  <data name="lblAGCMTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinalFlagResource1.Text" xml:space="preserve">
+    <value>测试结果</value>
+  </data>
+  <data name="lblFinalFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFTCTargetResource1.Text" xml:space="preserve">
+    <value>G3：误码数 不计 &lt;BR/&gt;
+严重误码秒 不计&lt;BR/&gt;
+      AIS ≤20S&lt;BR/&gt;
+XMC：误码数 不计&lt;BR/&gt;
+ 严重误码秒 不计&lt;BR/&gt;
+      AIS ≤20S &lt;BR/&gt;
+一体机：误码数 不计 &lt;BR/&gt;
+严重误码秒 不计&lt;BR/&gt;
+      AIS ≤20S</value>
+  </data>
+  <data name="lblFTCTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatorResource1.Text" xml:space="preserve">
+    <value>签名</value>
+  </data>
+  <data name="lblOperatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemG3XMCTargetResource1.Text" xml:space="preserve">
+    <value>G3：误码数 高温段=0，低温段不计&lt;BR/&gt;
+严重误码秒≤10S&lt;BR/&gt;
+      AIS≤10S&lt;BR/&gt;
+XMC：误码数=0&lt;BR/&gt;
+ 严重误码秒=0&lt;BR/&gt;
+       AIS=0</value>
+  </data>
+  <data name="lblTemG3XMCTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemPTNTargetResource1.Text" xml:space="preserve">
+    <value>丢包率 &lt;10-7&lt;BR/&gt;
+误码秒 ≤20S</value>
+  </data>
+  <data name="lblTemPTNTargetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTestTimeResource1.Text" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="lblTestTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ListItemResource6.Text" xml:space="preserve">
+    <value>&lt;font color='Green'&gt;Pass&lt;/font&gt;</value>
+  </data>
+  <data name="ListItemResource6.Value" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="ListItemResource7.Text" xml:space="preserve">
+    <value>&lt;font color='Red'&gt;Fail&lt;/font&gt;</value>
+  </data>
+  <data name="ListItemResource7.Value" xml:space="preserve">
+    <value>F</value>
+  </data>
+  <data name="ListItemResource8.Text" xml:space="preserve">
+    <value>&lt;font color='Gray'&gt;未测&lt;/font&gt;</value>
+  </data>
+  <data name="ListItemResource8.Value" xml:space="preserve">
+    <value>N</value>
+  </data>
+</root>

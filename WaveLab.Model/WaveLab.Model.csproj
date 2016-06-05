@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FEF002D7-5340-4108-9E7B-CE31B1B3DC31}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveLab.Model</RootNamespace>
+    <AssemblyName>WaveLab.Model</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SYSActionInfo.cs" />
+    <Compile Include="AdLogInfo.cs" />
+    <Compile Include="SMTBomCoorPatternInfo.cs" />
+    <Compile Include="SMTConsignProcessInfo.cs" />
+    <Compile Include="SMTConsignProcessTemplateInfo.cs" />
+    <Compile Include="SMTCPTemplateInfo.cs" />
+    <Compile Include="SMTDocumentInfo.cs" />
+    <Compile Include="SMTFileInduceInfo.cs" />
+    <Compile Include="SMTFileInduceNewDVSInfo.cs" />
+    <Compile Include="FQARxResultInfo.cs" />
+    <Compile Include="FQARxResultPowerLevelInfo.cs" />
+    <Compile Include="FQATxMaskDetailInfo.cs" />
+    <Compile Include="FQATxMaskFlatDetailInfo.cs" />
+    <Compile Include="FQATxMaskFlatInfo.cs" />
+    <Compile Include="FQATxMaskInfo.cs" />
+    <Compile Include="FQATxPowerInfo.cs" />
+    <Compile Include="FQATxPowerTableInfo.cs" />
+    <Compile Include="FQATxSpurDetailInfo.cs" />
+    <Compile Include="FQATxSpurInfo.cs" />
+    <Compile Include="FrequencyInfo.cs" />
+    <Compile Include="SYSFunctionControlInfo.cs" />
+    <Compile Include="GeneralInitInfo.cs" />
+    <Compile Include="IFBDataRangeInfo.cs" />
+    <Compile Include="IFBTestResultInfo.cs" />
+    <Compile Include="InformationConfirmInfo.cs" />
+    <Compile Include="InjurantInfo.cs" />
+    <Compile Include="InjurantTypeInfo.cs" />
+    <Compile Include="ItemInfo.cs" />
+    <Compile Include="MAMDataRangeInfo.cs" />
+    <Compile Include="MAMTestResultDetail.cs" />
+    <Compile Include="MAMTestResultInfo.cs" />
+    <Compile Include="MAMTypeInfo.cs" />
+    <Compile Include="MaterialTypeInfo.cs" />
+    <Compile Include="MCTDtlInfo.cs" />
+    <Compile Include="MCTImportInfo.cs" />
+    <Compile Include="MCTInfo.cs" />
+    <Compile Include="MCTQueryInfo.cs" />
+    <Compile Include="SYSMenuInfo.cs" />
+    <Compile Include="MIMeasureDataInfo.cs" />
+    <Compile Include="SYSModuleTypeInfo.cs" />
+    <Compile Include="MWMTestResultDetail.cs" />
+    <Compile Include="MWMTestResultInfo.cs" />
+    <Compile Include="NTRxMSEDetailInfo.cs" />
+    <Compile Include="NTRxMSEInfo.cs" />
+    <Compile Include="NTRxPowerDetailIInfo.cs" />
+    <Compile Include="NTRxPowerInfo.cs" />
+    <Compile Include="NTSensitivityInfo.cs" />
+    <Compile Include="NTSensitivityResultInfo.cs" />
+    <Compile Include="NTTxMaskFlatDetailInfo.cs" />
+    <Compile Include="NTTxMaskFlatInfo.cs" />
+    <Compile Include="NTTxSpurDetailInfo.cs" />
+    <Compile Include="NTTxSpurInfo.cs" />
+    <Compile Include="SMTPCBPriorityItemInfo.cs" />
+    <Compile Include="SMTPCBSteelMeshInfo.cs" />
+    <Compile Include="ProductAuditInfo.cs" />
+    <Compile Include="ProductBomInfo.cs" />
+    <Compile Include="ProductInfo.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolInitInfo.cs" />
+    <Compile Include="SYSRoleInfo.cs" />
+    <Compile Include="SYSRoleMenuMapInfo.cs" />
+    <Compile Include="RptMCTCountInfo.cs" />
+    <Compile Include="RptMCTMTAnalysisInfo.cs" />
+    <Compile Include="RptMCTOriginalInfo.cs" />
+    <Compile Include="RxCalInfo.cs" />
+    <Compile Include="RxCalRSSIDetInfo.cs" />
+    <Compile Include="RxResultInfo.cs" />
+    <Compile Include="RxResultPowerLevelInfo.cs" />
+    <Compile Include="SampleTemplateInfo.cs" />
+    <Compile Include="SYSSectionInfo.cs" />
+    <Compile Include="SYSSecurityMasterInfo.cs" />
+    <Compile Include="SerialNoInfo.cs" />
+    <Compile Include="SYSStationInfo.cs" />
+    <Compile Include="TemCirculationInfo.cs" />
+    <Compile Include="TxCableInfo.cs" />
+    <Compile Include="TxCableTableInfo.cs" />
+    <Compile Include="TxCalInfo.cs" />
+    <Compile Include="TxCalTableInfo.cs" />
+    <Compile Include="TxPowerInfo.cs" />
+    <Compile Include="TxPowerTableInfo.cs" />
+    <Compile Include="SPCSDPartTxPowerXMRInfo.cs" />
+    <Compile Include="SPCSDPartTxPowerDetail.cs" />
+    <Compile Include="SPCSDPartTxPowerException.cs" />
+    <Compile Include="SPCSDPartTxPowerInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LabelCodeInfo.cs" />
+    <Compile Include="NTRxMicroDetailInfo.cs" />
+    <Compile Include="NTRxMicroInfo.cs" />
+    <Compile Include="NTTxMaskDetailInfo.cs" />
+    <Compile Include="NTTxMaskInfo.cs" />
+    <Compile Include="ReportGroupInfo.cs" />
+    <Compile Include="ReportInfo.cs" />
+    <Compile Include="SPCEmailContainerInfo.cs" />
+    <Compile Include="SPCFixtureDataInputInfo.cs" />
+    <Compile Include="SPCFixtureInsertionLossDetail.cs" />
+    <Compile Include="SPCFixtureInsertionLossException.cs" />
+    <Compile Include="SPCFixtureInsertionLossInfo.cs" />
+    <Compile Include="SPCFixtureInsertionLossInput.cs" />
+    <Compile Include="SPCFixtureItemInfo.cs" />
+    <Compile Include="SPCFixtureReturnLossDetail.cs" />
+    <Compile Include="SPCFixtureReturnLossException.cs" />
+    <Compile Include="SPCFixtureReturnLossInfo.cs" />
+    <Compile Include="SPCFixtureReturnLossInput.cs" />
+    <Compile Include="SPCParameterInfo.cs" />
+    <Compile Include="SPCProjectInfo.cs" />
+    <Compile Include="SPCPullingForceInfo.cs" />
+    <Compile Include="SPCPullingForceMonthlyDetail.cs" />
+    <Compile Include="SPCPullingForceMonthlyException.cs" />
+    <Compile Include="SPCPullingForceMonthlyInfo.cs" />
+    <Compile Include="SPCPullingForceTargetInfo.cs" />
+    <Compile Include="SPCPullingForceWeeklyDetail.cs" />
+    <Compile Include="SPCPullingForceWeeklyException.cs" />
+    <Compile Include="SPCPullingForceWeeklyInfo.cs" />
+    <Compile Include="SPCRxPowerDetail.cs" />
+    <Compile Include="SPCRxPowerException.cs" />
+    <Compile Include="SPCRxPowerGroup.cs" />
+    <Compile Include="SPCRxPowerInfo.cs" />
+    <Compile Include="SPCRxPowerItemInfo.cs" />
+    <Compile Include="SPCSDPartMAMInfo.cs" />
+    <Compile Include="SPCSDPartMWMInfo.cs" />
+    <Compile Include="SPCSDPartRxAGCDetail.cs" />
+    <Compile Include="SPCSDPartRxAGCnException.cs" />
+    <Compile Include="SPCSDPartRxAGCXMRInfo.cs" />
+    <Compile Include="SPCSDPartRxFreqPointDetail.cs" />
+    <Compile Include="SPCSDPartRxFreqPointException.cs" />
+    <Compile Include="SPCSDPartRxFreqPointInfo.cs" />
+    <Compile Include="SPCSDPartRxFreqPointXMRInfo.cs" />
+    <Compile Include="SPCSDPartRxIFGainDetail.cs" />
+    <Compile Include="SPCSDPartRxIFGainException.cs" />
+    <Compile Include="SPCSDPartRxIFGainXMRInfo.cs" />
+    <Compile Include="SPCSDPartRxPowerDetail.cs" />
+    <Compile Include="SPCSDPartRxPowerException.cs" />
+    <Compile Include="SPCSDPartRxPowerInfo.cs" />
+    <Compile Include="SPCSDPartRxPowerXMRInfo.cs" />
+    <Compile Include="SPCSDPartTxGainDetail.cs" />
+    <Compile Include="SPCSDPartTxGainException.cs" />
+    <Compile Include="SPCSDPartTxGainXMRInfo.cs" />
+    <Compile Include="SPCSDPartTxLoPowerDetail.cs" />
+    <Compile Include="SPCSDPartTxLoPowerException.cs" />
+    <Compile Include="SPCSDPartTxLoPowerXMRInfo.cs" />
+    <Compile Include="SPCStationLineLossDetail.cs" />
+    <Compile Include="SPCStationLineLossException.cs" />
+    <Compile Include="SPCStationLineLossInfo.cs" />
+    <Compile Include="SPCStationLineLossInput.cs" />
+    <Compile Include="SPCStationLineLossItemInfo.cs" />
+    <Compile Include="SPCTxMaskFlatDetail.cs" />
+    <Compile Include="SPCTxMaskFlatException.cs" />
+    <Compile Include="SPCTxMaskFlatGroup.cs" />
+    <Compile Include="SPCTxMaskFlatInfo.cs" />
+    <Compile Include="SPCTxMaskFlatItemInfo.cs" />
+    <Compile Include="SPCTxPowerDetail.cs" />
+    <Compile Include="SPCTxPowerException.cs" />
+    <Compile Include="SPCTxPowerGroup.cs" />
+    <Compile Include="SPCTxPowerInfo.cs" />
+    <Compile Include="SPCTxPowerItemInfo.cs" />
+    <Compile Include="SMTModelFileInduceInfo.cs" />
+    <Compile Include="SPCTxPowerItemLogInfo.cs" />
+    <Compile Include="SPCRxPowerItemLogInfo.cs" />
+    <Compile Include="SPCTxMaskFlatItemLogInfo.cs" />
+    <Compile Include="SPCStationLineLossItemLogInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

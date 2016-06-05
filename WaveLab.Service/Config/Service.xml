@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--Station-->
+  <object id="SV.SYSStationService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSStationService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SYSStation"/>
+      </object>
+    </property>
+  </object>
+  
+  <!--SPC Project-->
+  <object id="SV.SPCProjectService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCProjectService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCProject"/>
+      </object>
+    </property>
+  </object>
+
+  <!--Standard Part Tx Power-->
+  <object id="SV.SPCSDPartTxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartTxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartTxPower"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartTxPowerXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartTxPowerXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartTxPowerXMR"/>
+      </object>
+    </property>
+  </object>
+  <!--Standard Part Rx Power-->
+  <object id="SV.SPCSDPartRxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartRxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartRxPower"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartRxPowerXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartRxPowerXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartRxPowerXMR"/>
+      </object>
+    </property>
+  </object>
+  <!--Standard Part Rx FreqPoint-->
+  <object id="SV.SPCSDPartRxFreqPointService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartRxFreqPointService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartRxFreqPoint"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartRxFreqPointXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartRxFreqPointXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartRxFreqPointXMR"/>
+      </object>
+    </property>
+  </object>
+
+  <!--Standard Part MAM-->
+  <object id="SV.SPCSDPartMAMService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartMAMService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartMAM"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartTxLoPowerXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartTxLoPowerXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartTxLoPowerXMR"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartRxAGCXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartRxAGCXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartRxAGCXMR"/>
+      </object>
+    </property>
+  </object>
+  <!--Standard Part MWM-->
+  <object id="SV.SPCSDPartMWMService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartMWMService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartMWM"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartTxGainXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartTxGainXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartTxGainXMR"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCSDPartRxIFGainXMRService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCSDPartRxIFGainXMRService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCSDPartRxIFGainXMR"/>
+      </object>
+    </property>
+  </object>
+
+
+  
+  <object id="SV.SPCParameterService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCParameterService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCParameter"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCTxPowerItemService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCTxPowerItemService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCTxPowerItem"/>
+      </object>
+    </property>
+  </object>
+  
+  <object id="SV.SPCTxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCTxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCTxPower"/>
+      </object>
+    </property>
+  </object>
+  
+  
+  <object id="SV.SPCRxPowerItemService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCRxPowerItemService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCRxPowerItem"/>
+      </object>
+    </property>
+  </object>
+  
+  
+  <object id="SV.SPCRxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCRxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCRxPower"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCTxMaskFlatItemService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCTxMaskFlatItemService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCTxMaskFlatItem"/>
+      </object>
+    </property>
+  </object>
+  
+  <object id="SV.SPCTxMaskFlatService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCTxMaskFlatService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCTxMaskFlat"/>
+      </object>
+    </property>
+  </object>
+  
+  
+  <object id="SV.SPCPullingForceTargetService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCPullingForceTargetService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCPullingForceTarget"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCPullingForceService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCPullingForceService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCPullingForce"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.LabelCodeService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.LabelCodeService,WaveLab.Service" >
+        <property name="dal" ref="DAL.LabelCode"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCPullingForceWeeklyService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCPullingForceWeeklyService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCPullingForceWeekly"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCPullingForceMonthlyService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCPullingForceMonthlyService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCPullingForceMonthly"/>
+      </object>
+    </property>
+  </object>
+  <!--Line/Return/Insertion Loss-->
+  <object id="SV.SPCStationLineLossItemService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCStationLineLossItemService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCStationLineLossItem"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCStationLineLossService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCStationLineLossService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCStationLineLoss"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCFixtureItemService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCFixtureItemService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCFixtureItem"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SPCFixtureDataInputService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCFixtureDataInputService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCFixtureDataInput"/>
+      </object>
+    </property>
+  </object>
+  
+  <object id="SV.SPCFixtureReturnLossService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCFixtureReturnLossService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCFixtureReturnLoss"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SPCFixtureInsertionLossService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCFixtureInsertionLossService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCFixtureInsertionLoss"/>
+      </object>
+    </property>
+  </object>
+
+
+  <object id="SV.SPCEmailContainerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SPCEmailContainerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SPCEmailContainer"/>
+      </object>
+    </property>
+  </object>
+
+  <!--Auto Testing System -->
+  <object id="SV.GeneralInitService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.GeneralInitService,WaveLab.Service" >
+        <property name="dal" ref="DAL.GeneralInit"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.TxCalService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.TxCalService,WaveLab.Service" >
+        <property name="dal" ref="DAL.TxCal"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.TxCableService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.TxCableService,WaveLab.Service" >
+        <property name="dal" ref="DAL.TxCable"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.TxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.TxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.TxPower"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.RxCalService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.RxCalService,WaveLab.Service" >
+        <property name="dal" ref="DAL.RxCal"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.RxResultService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.RxResultService,WaveLab.Service" >
+        <property name="dal" ref="DAL.RxResult"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTRxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTRxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTRxPower"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTRxMSEService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTRxMSEService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTRxMSE"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTSensitivityService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTSensitivityService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTSensitivity"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTTxMaskService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTTxMaskService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTTxMask"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTTxMaskFlatService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTTxMaskFlatService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTTxMaskFlat"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTTxSpurService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTTxSpurService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTTxSpur"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.NTRxMicroService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.NTRxMicroService,WaveLab.Service" >
+        <property name="dal" ref="DAL.NTRxMicro"/>
+      </object>
+    </property>
+  </object>
+  
+  <object id="SV.TemCirculationService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.TemCirculationService,WaveLab.Service" >
+        <property name="dal" ref="DAL.TemCirculation"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.ProtocolInitService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.ProtocolInitService,WaveLab.Service" >
+        <property name="dal" ref="DAL.ProtocolInit"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.InformationConfirmService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.InformationConfirmService,WaveLab.Service" >
+        <property name="dal" ref="DAL.InformationConfirm"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.FQARxResultService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.FQARxResultService,WaveLab.Service" >
+        <property name="dal" ref="DAL.FQARxResult"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.FQATxPowerService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.FQATxPowerService,WaveLab.Service" >
+        <property name="dal" ref="DAL.FQATxPower"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.FQATxMaskService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.FQATxMaskService,WaveLab.Service" >
+        <property name="dal" ref="DAL.FQATxMask"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.FQATxMaskFlatService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.FQATxMaskFlatService,WaveLab.Service" >
+        <property name="dal" ref="DAL.FQATxMaskFlat"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.FQATxSpurService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.FQATxSpurService,WaveLab.Service" >
+        <property name="dal" ref="DAL.FQATxSpur"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SerialNoService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SerialNoService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SerialNo"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MIMeasureDataService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MIMeasureDataService,WaveLab.Service" >
+        <property name="dal" ref="DAL.MIMeasureData"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MAMTestResultService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MAMTestResultService,WaveLab.Service" >
+        <property name="dal" ref="DAL.MAMTestResult"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.IFBTestResultService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.IFBTestResultService,WaveLab.Service" >
+        <property name="dal" ref="DAL.IFBTestResult"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MWMTestResultService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MWMTestResultService,WaveLab.Service" >
+        <property name="dal" ref="DAL.MWMTestResult"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.FrequencyService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.FrequencyService,WaveLab.Service" >
+        <property name="dal" ref="DAL.Frequency"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MAMDataRangeService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MAMDataRangeService,WaveLab.Service" >
+        <property name="dal" ref="DAL.MAMDataRange"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MAMTypeService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MAMTypeService,WaveLab.Service" >
+        <property name="dal" ref="DAL.MAMType"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.IFBDataRangeService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.IFBDataRangeService,WaveLab.Service" >
+        <property name="dal" ref="DAL.IFBDataRange"/>
+      </object>
+    </property>
+  </object>
+  <!--Material Component Table-->
+  <object id="SV.ProductService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.ProductService,WaveLab.Service" >
+        <property name="dal" ref="DAL.Product"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.ProductAuditService" type="WaveLab.Service.ProductAuditSerivce,WaveLab.Service"   lazy-init="true"></object>
+
+  <object id="SV.InjurantTypeService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.InjurantTypeService,WaveLab.Service">
+        <property name="dal" ref="DAL.InjurantType"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.InjurantService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.InjurantService,WaveLab.Service">
+        <property name="dal" ref="DAL.Injurant"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MaterialTypeService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MaterialTypeService,WaveLab.Service"  >
+        <property name="dal" ref="DAL.MaterialType"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.ProductBomService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.ProductBomService,WaveLab.Service">
+        <property name="dal" ref="DAL.ProductBom"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.ProductBomImportService" type="WaveLab.Service.ProductBomImportService,WaveLab.Service"  lazy-init="true"></object>
+
+  <object id="SV.MCTImportService" type="WaveLab.Service.MCTImportService,WaveLab.Service"  lazy-init="true"></object>
+
+  <object id="SV.MCTService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MCTService,WaveLab.Service">
+        <property name="dal" ref="DAL.MCT"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.MCTReportService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.MCTReportService,WaveLab.Service">
+        <property name="dal" ref="DAL.MCTReport"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.ProductBomReportService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.ProductBomReportService,WaveLab.Service" >
+      </object>
+    </property>
+  </object>
+
+  <!--Consign Process-->
+  <object id="SV.SMTPCBSteelMeshService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTPCBSteelMeshService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTPCBSteelMesh"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTBomCoorPatternImportService" type="WaveLab.Service.SMTBomCoorPatternImportService,WaveLab.Service" lazy-init="true">
+  </object>
+
+  <object id="SV.SMTBomCoorPatternService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTBomCoorPatternService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTBomCoorPattern"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SYSModuleTypeService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSModuleTypeService,WaveLab.Service">
+        <property name="dal" ref="DAL.SYSModuleType"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTFileInduceService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTFileInduceService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTFileInduce"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTFileInduceImportService" type="WaveLab.Service.SMTFileInduceImportService,WaveLab.Service" lazy-init="true">
+  </object>
+ 
+  <object id="SV.SMTPCBPriorityItemService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTPCBPriorityItemService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTPCBPriorityItem"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTDocumentService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTDocumentService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTDocument"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTDocumentImportService" type="WaveLab.Service.SMTDocumentImportService,WaveLab.Service" lazy-init="true">
+  </object>
+
+  <object id="SV.SYSFunctionControlService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSFunctionControlService,WaveLab.Service">
+        <property name="dal" ref="DAL.SYSFunctionControl"/>
+      </object>
+    </property>
+  </object>
+  <object id="SV.SMTCPTemplateService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTCPTemplateService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTCPTemplate"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTConsignProcessService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTConsignProcessService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTConsignProcess"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SMTConsignProcessSAPService" type="WaveLab.Service.SMTConsignProcessSAPService,WaveLab.Service" lazy-init="true">
+    <property name="pcbSteelMesh" ref="DAL.SMTPCBSteelMesh"/>
+    <property name="bomCoorPattern" ref="DAL.SMTBomCoorPattern"/>
+    <property name="serialNoGenerator"  ref="DAL.SYSSerialNoGenerator"/>
+  </object>
+  
+   <object id="SV.SMTModelFileInduceService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SMTModelFileInduceService,WaveLab.Service">
+        <property name="dal" ref="DAL.SMTModelFileInduce"/>
+      </object>
+    </property>
+  </object>
+
+  <!-- Access Right-->
+  <object id="SV.SYSSectionService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSSectionService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SYSSection"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SYSSecurityMasterService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSSecurityMasterService,WaveLab.Service">
+        <property name="dal" ref="DAL.SYSSecurityMaster"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SYSRoleService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSRoleService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SYSRole"/>
+        <property name="smdal" ref="DAL.SYSSecurityMaster"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SYSMenuService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSMenuService,WaveLab.Service">
+        <property name="dal" ref="DAL.SYSMenu"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SYSActionService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SYSActionService,WaveLab.Service" >
+        <property name="dal" ref="DAL.SYSAction"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.SampleTemplateService" parent="BaseTransactionManager"  lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.SampleTemplateService,WaveLab.Service">
+        <property name="dal" ref="DAL.SampleTemplate"/>
+      </object>
+    </property>
+  </object>
+
+  <!--Common-->
+  <object id="SV.ItemService" type="WaveLab.Service.ItemService,WaveLab.Service" lazy-init="true"></object>
+
+  <!--Report-->
+  <object id="SV.ReportGroupService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.ReportGroupService,WaveLab.Service" >
+        <property name="dal" ref="DAL.ReportGroup"/>
+      </object>
+    </property>
+  </object>
+
+  <object id="SV.ReportService" parent="BaseTransactionManager" lazy-init="true">
+    <property name="Target">
+      <object type="WaveLab.Service.ReportService,WaveLab.Service" >
+        <property name="dal" ref="DAL.Report"/>
+      </object>
+    </property>
+  </object>
+</objects>

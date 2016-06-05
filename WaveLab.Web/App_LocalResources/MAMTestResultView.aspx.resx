@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>Tx IF Sweep</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>Tx Lo Sweep</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>Rx IF Sweep</value>
+  </data>
+  <data name="chartResultResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartResultResource1.DescriptionUrl" xml:space="preserve">
+    <value />
+  </data>
+  <data name="chartResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVDtlResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVDtlResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVDtlResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAbsPrxIFOffSetResource1.Text" xml:space="preserve">
+    <value>|Prx_if_+10-Prx_if_-67|:</value>
+  </data>
+  <data name="lblAbsPrxIFOffSetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAgingResource1.Text" xml:space="preserve">
+    <value>Aging:</value>
+  </data>
+  <data name="lblAgingResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblAppVersionResource1.Text" xml:space="preserve">
+    <value>测试软件版本:</value>
+  </data>
+  <data name="lblAppVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBwLowHighResource1.Text" xml:space="preserve">
+    <value>BW_Low_High:</value>
+  </data>
+  <data name="lblBwLowHighResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCtrlVoltageResource1.Text" xml:space="preserve">
+    <value>Ctrl Volt.:</value>
+  </data>
+  <data name="lblCtrlVoltageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEndTimeResource1.Text" xml:space="preserve">
+    <value>测试时间:</value>
+  </data>
+  <data name="lblEndTimeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFinalFlagResource1.Text" xml:space="preserve">
+    <value>OverAll:</value>
+  </data>
+  <data name="lblFinalFlagResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFirmWareVersionResource1.Text" xml:space="preserve">
+    <value>Firmware Version:</value>
+  </data>
+  <data name="lblFirmWareVersionResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlatRxIFResource1.Text" xml:space="preserve">
+    <value>Flat Rx IF:</value>
+  </data>
+  <data name="lblFlatRxIFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlatTxIFResource1.Text" xml:space="preserve">
+    <value>Flat Tx IF:</value>
+  </data>
+  <data name="lblFlatTxIFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFlatTxLoResource1.Text" xml:space="preserve">
+    <value>Flat Tx Lo:</value>
+  </data>
+  <data name="lblFlatTxLoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblHeaterResource1.Text" xml:space="preserve">
+    <value>Heater:</value>
+  </data>
+  <data name="lblHeaterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblIFFrequencyResource1.Text" xml:space="preserve">
+    <value>IF Frequency:</value>
+  </data>
+  <data name="lblIFFrequencyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoOffsetResource1.Text" xml:space="preserve">
+    <value>Lo Offset:</value>
+  </data>
+  <data name="lblLoOffsetResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMBSerialNo.Text" xml:space="preserve">
+    <value>MB SN.:</value>
+  </data>
+  <data name="lblMBSerialNo.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblNegative5VResource1.Text" xml:space="preserve">
+    <value>-5V:</value>
+  </data>
+  <data name="lblNegative5VResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOperatorResource1.Text" xml:space="preserve">
+    <value>操作员:</value>
+  </data>
+  <data name="lblOperatorResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPAIResource1.Text" xml:space="preserve">
+    <value>PA_I:</value>
+  </data>
+  <data name="lblPAIResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPllSerialNoResource1.Text" xml:space="preserve">
+    <value>Pll SN.:</value>
+  </data>
+  <data name="lblPllSerialNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblREVMainBoardResource1.Text" xml:space="preserve">
+    <value>REV_MainBoard:</value>
+  </data>
+  <data name="lblREVMainBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblREVPllBoardResource1.Text" xml:space="preserve">
+    <value>REV_PllBoard:</value>
+  </data>
+  <data name="lblREVPllBoardResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRSSIHighLowResource1.Text" xml:space="preserve">
+    <value>RSSI(HIGH_LOW):</value>
+  </data>
+  <data name="lblRSSIHighLowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRxIF10Resource1.Text" xml:space="preserve">
+    <value>RX_IF_10:</value>
+  </data>
+  <data name="lblRxIF10Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRxIFNegative67Resource1.Text" xml:space="preserve">
+    <value>RX_IF_-67:</value>
+  </data>
+  <data name="lblRxIFNegative67Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRxLoPowerResource1.Text" xml:space="preserve">
+    <value>RX_LO POWER:</value>
+  </data>
+  <data name="lblRxLoPowerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRxPllResource1.Text" xml:space="preserve">
+    <value>RX_PLL:</value>
+  </data>
+  <data name="lblRxPllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblStationNoResource1.Text" xml:space="preserve">
+    <value>Station No.:</value>
+  </data>
+  <data name="lblStationNoResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>测试结果</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxIFRangeResource1.Text" xml:space="preserve">
+    <value>TX IF_Range:</value>
+  </data>
+  <data name="lblTxIFRangeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxIFResource1.Text" xml:space="preserve">
+    <value>TX_IF:</value>
+  </data>
+  <data name="lblTxIFResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxIFResultResource1.Text" xml:space="preserve">
+    <value>TX_IF:</value>
+  </data>
+  <data name="lblTxIFResultResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxLoPowerResource1.Text" xml:space="preserve">
+    <value>TX_LO POWER:</value>
+  </data>
+  <data name="lblTxLoPowerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxPllResource1.Text" xml:space="preserve">
+    <value>TX_PLL:</value>
+  </data>
+  <data name="lblTxPllResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTxPowResource1.Text" xml:space="preserve">
+    <value>Tx_POW:</value>
+  </data>
+  <data name="lblTxPowResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTypeResource1.Text" xml:space="preserve">
+    <value>型号:</value>
+  </data>
+  <data name="lblTypeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlAbsPrxIFOffSetResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlAgingResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlAppVersionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlBwLowHighResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlCtrlVoltageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlEndTimeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlFinalFlagResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlFirmWareVersionResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlFlatRxIFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlFlatTxIFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlFlatTxLoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlHeaterResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlIFFrequencyResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlLoOffsetResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlMBSerialNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlNegative5VResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlOperatorResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlPAIResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlPllSerialNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlREVMainBoardResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlREVPllBoardResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlRSSIHighLowResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlRxIF10Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlRxIFNegative67Resource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlRxLoPowerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlRxPllResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlStationNoResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTxIFRangeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTxIFResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTxIFResultResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTxLoPowerResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTxPllResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTxPowResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTypeResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>主板测试</value>
+  </data>
+  <data name="lblFSKFreqResource1.Text" xml:space="preserve">
+    <value>FSK Freq:</value>
+  </data>
+  <data name="lblFSKFreqResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblLoLeakageResource1.Text" xml:space="preserve">
+    <value>Lo Leakage:</value>
+  </data>
+  <data name="lblLoLeakageResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRemodloResource1.Text" xml:space="preserve">
+    <value>REMODLO:</value>
+  </data>
+  <data name="lblRemodloResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTemperatureResource1.Text" xml:space="preserve">
+    <value>Temperature:</value>
+  </data>
+  <data name="lblTemperatureResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlFSKFreqResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlLoLeakageResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlRemodloResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ltlTemperatureResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+</root>

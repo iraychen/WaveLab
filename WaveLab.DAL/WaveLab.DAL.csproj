@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9BAA35FD-717A-44C3-B000-CB9089930C5F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveLab.DAL</RootNamespace>
+    <AssemblyName>WaveLab.DAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Spring.Core, Version=1.3.2.20943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SourceCode\ODU\DAL\bin\Debug\Spring.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Data, Version=1.3.2.20943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\SourceCode\ODU\DAL\bin\Debug\Spring.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SPCTxPowerItem.cs" />
+    <Compile Include="SYSAction.cs" />
+    <Compile Include="AdLog.cs" />
+    <Compile Include="SMTBomCoorPattern.cs" />
+    <Compile Include="SMTConsignProcess.cs" />
+    <Compile Include="Convertor.cs" />
+    <Compile Include="SMTCPTemplate.cs" />
+    <Compile Include="SMTDocument.cs" />
+    <Compile Include="SMTFileInduce.cs" />
+    <Compile Include="FQARxResult.cs" />
+    <Compile Include="FQATxMask.cs" />
+    <Compile Include="FQATxMaskFlat.cs" />
+    <Compile Include="FQATxPower.cs" />
+    <Compile Include="FQATxSpur.cs" />
+    <Compile Include="Frequency.cs" />
+    <Compile Include="SYSFunctionControl.cs" />
+    <Compile Include="GeneralInit.cs" />
+    <Compile Include="HTToSqlParameters.cs" />
+    <Compile Include="IFBDataRange.cs" />
+    <Compile Include="IFBTestResult.cs" />
+    <Compile Include="InformationConfirm.cs" />
+    <Compile Include="Injurant.cs" />
+    <Compile Include="InjurantType.cs" />
+    <Compile Include="LabelCode.cs" />
+    <Compile Include="MAMDataRange.cs" />
+    <Compile Include="MAMTestResult.cs" />
+    <Compile Include="MAMType.cs" />
+    <Compile Include="MaterialType.cs" />
+    <Compile Include="MCT.cs" />
+    <Compile Include="MCTReport.cs" />
+    <Compile Include="SYSMenu.cs" />
+    <Compile Include="MIMeasureData.cs" />
+    <Compile Include="SYSModuleType.cs" />
+    <Compile Include="MWMTestResult.cs" />
+    <Compile Include="NTRxMicro.cs" />
+    <Compile Include="NTRxMSE.cs" />
+    <Compile Include="NTRxPower.cs" />
+    <Compile Include="NTSensitivity.cs" />
+    <Compile Include="NTTxMask.cs" />
+    <Compile Include="NTTxMaskFlat.cs" />
+    <Compile Include="NTTxSpur.cs" />
+    <Compile Include="SMTPCBPriorityItem.cs" />
+    <Compile Include="SMTPCBSteelMesh.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductBom.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolInit.cs" />
+    <Compile Include="Report.cs" />
+    <Compile Include="ReportGroup.cs" />
+    <Compile Include="SYSRole.cs" />
+    <Compile Include="RxCal.cs" />
+    <Compile Include="RxResult.cs" />
+    <Compile Include="SampleTemplate.cs" />
+    <Compile Include="SYSSection.cs" />
+    <Compile Include="SYSSecurityMaster.cs" />
+    <Compile Include="SerialNo.cs" />
+    <Compile Include="SYSSerialNoGenerator.cs" />
+    <Compile Include="SPCEmailContainer.cs" />
+    <Compile Include="SPCProject.cs" />
+    <Compile Include="SPCFixtureDataInput.cs" />
+    <Compile Include="SPCFixtureInsertionLoss.cs" />
+    <Compile Include="SPCFixtureItem.cs" />
+    <Compile Include="SPCFixtureReturnLoss.cs" />
+    <Compile Include="SPCParameter.cs" />
+    <Compile Include="SPCPullingForce.cs" />
+    <Compile Include="SPCPullingForceMonthly.cs" />
+    <Compile Include="SPCPullingForceTarget.cs" />
+    <Compile Include="SPCPullingForceWeekly.cs" />
+    <Compile Include="SPCSDPartMAM.cs" />
+    <Compile Include="SPCSDPartMWM.cs" />
+    <Compile Include="SPCSDPartRxAGCXMR.cs" />
+    <Compile Include="SPCSDPartRxFreqPoint.cs" />
+    <Compile Include="SPCSDPartRxFreqPointXMR.cs" />
+    <Compile Include="SPCSDPartRxIFGainXMR.cs" />
+    <Compile Include="SPCSDPartRxPower.cs" />
+    <Compile Include="SPCSDPartRxPowerXMR.cs" />
+    <Compile Include="SPCSDPartTxGainXMR.cs" />
+    <Compile Include="SPCSDPartTxLoPowerXMR.cs" />
+    <Compile Include="SPCSDPartTxPower.cs" />
+    <Compile Include="SPCSDPartTxPowerXMR.cs" />
+    <Compile Include="SPCStationLineLossItem.cs" />
+    <Compile Include="SPCStationLineLoss.cs" />
+    <Compile Include="SPCTxPower.cs" />
+    <Compile Include="SYSStation.cs" />
+    <Compile Include="TemCirculation.cs" />
+    <Compile Include="TxCable.cs" />
+    <Compile Include="TxCal.cs" />
+    <Compile Include="TxPower.cs" />
+    <Compile Include="SPCRxPower.cs" />
+    <Compile Include="SPCTxMaskFlat.cs" />
+    <Compile Include="SMTModelFileInduce.cs" />
+    <Compile Include="SPCRxPowerItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config\Dao.xml" />
+    <EmbeddedResource Include="Config\DaoBase.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WaveLab.IDAL\WaveLab.IDAL.csproj">
+      <Project>{45D578F4-F42E-4474-85EB-683CD8202988}</Project>
+      <Name>WaveLab.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WaveLab.Model\WaveLab.Model.csproj">
+      <Project>{FEF002D7-5340-4108-9E7B-CE31B1B3DC31}</Project>
+      <Name>WaveLab.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SPCTxMaskFlatItem.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

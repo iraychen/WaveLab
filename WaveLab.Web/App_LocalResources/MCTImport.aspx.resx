@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="fileUploaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVListResource1.Caption" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVListResource1.EmptyDataText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GVListResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgTitleResource1.AlternateText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="imgTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblBasicInformationResource1.Text" xml:space="preserve">
+    <value>供应商基本信息</value>
+  </data>
+  <data name="lblBasicInformationResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompleteByKeyResource1.Text" xml:space="preserve">
+    <value>填写人员：</value>
+  </data>
+  <data name="lblCompleteByKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompleteByValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompleteByValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompletedDateKeyResource1.Text" xml:space="preserve">
+    <value>填写时间：</value>
+  </data>
+  <data name="lblCompletedDateKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompletedDateValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblCompletedDateValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeparmentKeyResource1.Text" xml:space="preserve">
+    <value>填写部门：</value>
+  </data>
+  <data name="lblDeparmentKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeparmentValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDeparmentValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblDocumentResource1.Text" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="lblDocumentResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailKeyResource1.Text" xml:space="preserve">
+    <value>E-MAIL：</value>
+  </data>
+  <data name="lblEmailKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblEmailValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFaxKeyResource1.Text" xml:space="preserve">
+    <value>传真：</value>
+  </data>
+  <data name="lblFaxKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFaxValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFaxValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFileTypeMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblFormatTipResource1.Text" xml:space="preserve">
+    <value>*所输入的内容格式不正确.&lt;br/&gt;-- 供应商名称、物料代码，物料描述不能为空&lt;br/&gt;-- 物质重量、均质材料的含量必须是数字,且含&lt;br/&gt;量为百分数,不能大于100.</value>
+  </data>
+  <data name="lblFormatTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblMaterialDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblProductDescResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecCountResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecCountResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSubstancesInProductResource1.Text" xml:space="preserve">
+    <value>材料成分信息</value>
+  </data>
+  <data name="lblSubstancesInProductResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSupplierNameKeyResource1.Text" xml:space="preserve">
+    <value>供应商名称：</value>
+  </data>
+  <data name="lblSupplierNameKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSupplierNameValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblSupplierNameValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelKeyResource1.Text" xml:space="preserve">
+    <value>电话：</value>
+  </data>
+  <data name="lblTelKeyResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelValResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTelValResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTitleResource1.Text" xml:space="preserve">
+    <value>上载供应商材料成分表</value>
+  </data>
+  <data name="lblTitleResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUploadValueMsgResource1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lbtTemplateDownLoadResource1.Text" xml:space="preserve">
+    <value>模板下载</value>
+  </data>
+  <data name="lbtTemplateDownLoadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="norecords" xml:space="preserve">
+    <value>找不到任何材料成分信息！</value>
+  </data>
+  <data name="PageResource1.Title" xml:space="preserve">
+    <value>无标题页</value>
+  </data>
+  <data name="TemplateFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateFieldResource1.HeaderText" xml:space="preserve">
+    <value>物料名称</value>
+  </data>
+  <data name="BoundFieldResource1.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource1.HeaderText" xml:space="preserve">
+    <value>型号（图号）</value>
+  </data>
+  <data name="BoundFieldResource2.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource2.HeaderText" xml:space="preserve">
+    <value>波达编码</value>
+  </data>
+  <data name="BoundFieldResource3.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource3.HeaderText" xml:space="preserve">
+    <value>拆分部位名称</value>
+  </data>
+  <data name="BoundFieldResource4.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource4.HeaderText" xml:space="preserve">
+    <value>均质材料名称</value>
+  </data>
+  <data name="BoundFieldResource5.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource5.HeaderText" xml:space="preserve">
+    <value>物质名称</value>
+  </data>
+  <data name="BoundFieldResource6.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource6.HeaderText" xml:space="preserve">
+    <value>CAS No.</value>
+  </data>
+  <data name="BoundFieldResource7.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource7.HeaderText" xml:space="preserve">
+    <value>物质重量(mg)</value>
+  </data>
+  <data name="BoundFieldResource8.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource8.HeaderText" xml:space="preserve">
+    <value>均质材料中的含量(％)</value>
+  </data>
+  <data name="BoundFieldResource9.AccessibleHeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.FooterText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BoundFieldResource9.HeaderText" xml:space="preserve">
+    <value>备注</value>
+  </data>
+  <data name="btnImportResource1.Text" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="btnImportResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnUploadResource1.Text" xml:space="preserve">
+    <value>上传</value>
+  </data>
+  <data name="btnUploadResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="confirmImportMsg" xml:space="preserve">
+    <value>确定导入？</value>
+  </data>
+  <data name="errorRecordsMsg" xml:space="preserve">
+    <value>处存在错误</value>
+  </data>
+  <data name="lblInjurantTipResource1.Text" xml:space="preserve">
+    <value>*物料成分中含有有害物质.</value>
+  </data>
+  <data name="templateWrongMsg" xml:space="preserve">
+    <value>模板不正确，请选择正确的模板！</value>
+  </data>
+  <data name="importSuccessMsg" xml:space="preserve">
+    <value>成功导入！</value>
+  </data>
+  <data name="lblErrorCount.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblErrorCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblExistsTipResource1.Text" xml:space="preserve">
+    <value>*供应商已经提供了该物料.</value>
+  </data>
+  <data name="lblExistsTipResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecCount.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblRecCount.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

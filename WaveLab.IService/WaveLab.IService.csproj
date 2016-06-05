@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A4493951-E052-4F17-8E34-CFD110873461}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveLab.IService</RootNamespace>
+    <AssemblyName>WaveLab.IService</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ISPCTxPowerItemService.cs" />
+    <Compile Include="ISYSActionService.cs" />
+    <Compile Include="ISMTBomCoorPatternImportService.cs" />
+    <Compile Include="ISMTBomCoorPatternService.cs" />
+    <Compile Include="ISMTConsignProcessSAPService.cs" />
+    <Compile Include="ISMTConsignProcessService.cs" />
+    <Compile Include="ISMTCPTemplateService.cs" />
+    <Compile Include="ISMTDocumentImportService.cs" />
+    <Compile Include="ISMTDocumentService.cs" />
+    <Compile Include="ISMTFileInduceImportService.cs" />
+    <Compile Include="ISMTFileInduceService.cs" />
+    <Compile Include="IFQARxResultService.cs" />
+    <Compile Include="IFQATxMaskFlatService.cs" />
+    <Compile Include="IFQATxMaskService.cs" />
+    <Compile Include="IFQATxPowerService.cs" />
+    <Compile Include="IFQATxSpurService.cs" />
+    <Compile Include="IFrequencyService.cs" />
+    <Compile Include="ISYSFunctionControlService.cs" />
+    <Compile Include="IGeneralInitService.cs" />
+    <Compile Include="IIFBDataRangeService.cs" />
+    <Compile Include="IIFBTestResultService.cs" />
+    <Compile Include="IInformationConfirmService.cs" />
+    <Compile Include="IInjurantService.cs" />
+    <Compile Include="IInjurantTypeService.cs" />
+    <Compile Include="IItemService.cs" />
+    <Compile Include="ILabelCodeService.cs" />
+    <Compile Include="IMAMDataRangeService.cs" />
+    <Compile Include="IMAMTestResultService.cs" />
+    <Compile Include="IMAMTypeService.cs" />
+    <Compile Include="IMaterialTypeService.cs" />
+    <Compile Include="IMCTImportService.cs" />
+    <Compile Include="IMCTReportService.cs" />
+    <Compile Include="IMCTService.cs" />
+    <Compile Include="ISYSMenuService.cs" />
+    <Compile Include="IMIMeasureDataService.cs" />
+    <Compile Include="ISYSModuleTypeService.cs" />
+    <Compile Include="IMWMTestResultService.cs" />
+    <Compile Include="INTRxMicroService.cs" />
+    <Compile Include="INTRxMSEService.cs" />
+    <Compile Include="INTRxPowerService.cs" />
+    <Compile Include="INTSensitivityService.cs" />
+    <Compile Include="INTTxMaskFlatService.cs" />
+    <Compile Include="INTTxMaskService.cs" />
+    <Compile Include="INTTxSpurService.cs" />
+    <Compile Include="ISMTPCBPriorityItemService.cs" />
+    <Compile Include="ISMTPCBSteelMeshService.cs" />
+    <Compile Include="IProductAuditService.cs" />
+    <Compile Include="IProductBomImportService.cs" />
+    <Compile Include="IProductBomReportService.cs" />
+    <Compile Include="IProductBomService.cs" />
+    <Compile Include="IProductService.cs" />
+    <Compile Include="IProtocolInitService.cs" />
+    <Compile Include="IReportGroupService.cs" />
+    <Compile Include="IReportService.cs" />
+    <Compile Include="IRoleMenuMapService.cs" />
+    <Compile Include="ISYSRoleService.cs" />
+    <Compile Include="IRxCalService.cs" />
+    <Compile Include="IRxResultService.cs" />
+    <Compile Include="ISampleTemplateService.cs" />
+    <Compile Include="ISYSSectionService.cs" />
+    <Compile Include="ISYSSecurityMasterService.cs" />
+    <Compile Include="ISerialNoService.cs" />
+    <Compile Include="ISPCEmailContainerService.cs" />
+    <Compile Include="ISPCProjectService.cs" />
+    <Compile Include="ISPCFixtureDataInputService.cs" />
+    <Compile Include="ISPCFixtureInsertionLossService.cs" />
+    <Compile Include="ISPCFixtureItemService.cs" />
+    <Compile Include="ISPCFixtureReturnLossService.cs" />
+    <Compile Include="ISPCParameterService.cs" />
+    <Compile Include="ISPCPullingForceMonthlyService.cs" />
+    <Compile Include="ISPCPullingForceService.cs" />
+    <Compile Include="ISPCPullingForceTargetService.cs" />
+    <Compile Include="ISPCPullingForceWeeklyService.cs" />
+    <Compile Include="ISPCSDParMAMService.cs" />
+    <Compile Include="ISPCSDParMWMService.cs" />
+    <Compile Include="ISPCSDPartRxAGCXMRService.cs" />
+    <Compile Include="ISPCSDPartRxFreqPointService.cs" />
+    <Compile Include="ISPCSDPartRxFreqPointXMRService.cs" />
+    <Compile Include="ISPCSDPartRxIFGainXMRService.cs" />
+    <Compile Include="ISPCSDPartRxPowerService.cs" />
+    <Compile Include="ISPCSDPartRxPowerXMRService.cs" />
+    <Compile Include="ISPCSDPartTxGainXMRService.cs" />
+    <Compile Include="ISPCSDPartTxLoPowerXMRService.cs" />
+    <Compile Include="ISPCSDPartTxPowerService.cs" />
+    <Compile Include="ISPCSDPartTxPowerXMRService.cs" />
+    <Compile Include="ISPCStationLineLossService.cs" />
+    <Compile Include="ISPCStationLineLossItemService.cs" />
+    <Compile Include="ISPCTxPowerService.cs" />
+    <Compile Include="ISYSStationService.cs" />
+    <Compile Include="ITemCirculationService.cs" />
+    <Compile Include="ITxCableService.cs" />
+    <Compile Include="ITxCalService.cs" />
+    <Compile Include="ITxPowerService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ISPCRxPowerService.cs" />
+    <Compile Include="ISPCTxMaskFlatService.cs" />
+    <Compile Include="ISMTModelFileInduceService.cs" />
+    <Compile Include="ISPCRxPowerItemService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WaveLab.Model\WaveLab.Model.csproj">
+      <Project>{FEF002D7-5340-4108-9E7B-CE31B1B3DC31}</Project>
+      <Name>WaveLab.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ISPCTxMaskFlatItemService.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

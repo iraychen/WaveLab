@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42ABA5A9-8421-4AE3-8165-F7922A88CFA3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveLab.Service</RootNamespace>
+    <AssemblyName>WaveLab.Service</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp, Version=4.0.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DEV\WaveLab.Service\bin\Debug\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="NPOI, Version=1.2.3.0, Culture=neutral, PublicKeyToken=0df73ec7942b34e1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DEV\WaveLab.Service\bin\Debug\NPOI.dll</HintPath>
+    </Reference>
+    <Reference Include="Spring.Aop, Version=1.3.2.20943, Culture=neutral, PublicKeyToken=65e474d141e25e07, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DEV\WaveLab.Service\bin\Debug\Spring.Aop.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="SPCTxPowerItemService.cs" />
+    <Compile Include="SYSActionService.cs" />
+    <Compile Include="SMTBomCoorPatternImportService.cs" />
+    <Compile Include="SMTBomCoorPatternService.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="SMTConsignProcessSAPService.cs" />
+    <Compile Include="SMTConsignProcessService.cs" />
+    <Compile Include="SMTCPTemplateService.cs" />
+    <Compile Include="SMTDocumentImportService.cs" />
+    <Compile Include="SMTDocumentService.cs" />
+    <Compile Include="SMTFileInduceImportService.cs" />
+    <Compile Include="SMTFileInduceService.cs" />
+    <Compile Include="FQARxResultService.cs" />
+    <Compile Include="FQATxMaskFlatService.cs" />
+    <Compile Include="FQATxMaskService.cs" />
+    <Compile Include="FQATxPowerService.cs" />
+    <Compile Include="FQATxSpurService.cs" />
+    <Compile Include="FrequencyService.cs" />
+    <Compile Include="SYSFunctionControlService.cs" />
+    <Compile Include="GeneralInitService.cs" />
+    <Compile Include="Helper\ExcelHelper.cs" />
+    <Compile Include="Helper\PDFHelper.cs" />
+    <Compile Include="IFBDataRangeService.cs" />
+    <Compile Include="IFBTestResultService.cs" />
+    <Compile Include="InformationConfirmService.cs" />
+    <Compile Include="InjurantService.cs" />
+    <Compile Include="InjurantTypeService.cs" />
+    <Compile Include="ItemService.cs" />
+    <Compile Include="LabelCodeService.cs" />
+    <Compile Include="MAMDataRangeService.cs" />
+    <Compile Include="MAMTestResultService.cs" />
+    <Compile Include="MAMTypeService.cs" />
+    <Compile Include="MaterialTypeService.cs" />
+    <Compile Include="MCTImportService.cs" />
+    <Compile Include="MCTReportService.cs" />
+    <Compile Include="MCTService.cs" />
+    <Compile Include="SYSMenuService.cs" />
+    <Compile Include="SYSModuleTypeService.cs" />
+    <Compile Include="MWMTestResultService.cs" />
+    <Compile Include="NTRxMicroService.cs" />
+    <Compile Include="NTRxMSEService.cs" />
+    <Compile Include="NTRxPowerService.cs" />
+    <Compile Include="NTSensitivityService.cs" />
+    <Compile Include="NTTxMaskFlatService.cs" />
+    <Compile Include="NTTxMaskService.cs" />
+    <Compile Include="NTTxSpurService.cs" />
+    <Compile Include="PageEventHelper.cs" />
+    <Compile Include="SMTPCBPriorityItemService.cs" />
+    <Compile Include="SMTPCBSteelMeshService.cs" />
+    <Compile Include="ProductAuditSerivce.cs" />
+    <Compile Include="ProductBomImportService.cs" />
+    <Compile Include="ProductBomReportService.cs" />
+    <Compile Include="ProductBomService.cs" />
+    <Compile Include="ProductService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProtocolInitService.cs" />
+    <Compile Include="ReportGroupService.cs" />
+    <Compile Include="ReportService.cs" />
+    <Compile Include="SYSRoleMenuMapService.cs" />
+    <Compile Include="SYSRoleService.cs" />
+    <Compile Include="RxCalService.cs" />
+    <Compile Include="RxResultService.cs" />
+    <Compile Include="SampleTemplateService.cs" />
+    <Compile Include="SYSSectionService.cs" />
+    <Compile Include="SYSSecurityMasterService.cs" />
+    <Compile Include="Setting.cs" />
+    <Compile Include="SPCEmailContainerService.cs" />
+    <Compile Include="SPCProjectService.cs" />
+    <Compile Include="SPCFixtureDataInputSerivce.cs" />
+    <Compile Include="SPCFixtureInsertionLossService.cs" />
+    <Compile Include="SPCFixtureItemService.cs" />
+    <Compile Include="SPCFixtureReturnLossService.cs" />
+    <Compile Include="SPCParameterService.cs" />
+    <Compile Include="SPCPullingForceMonthlyService.cs" />
+    <Compile Include="SPCPullingForceService.cs" />
+    <Compile Include="SPCPullingForceTargetService.cs" />
+    <Compile Include="SPCPullingForceWeeklyService.cs" />
+    <Compile Include="SPCSDPartMAMSerivce.cs" />
+    <Compile Include="SPCSDPartMWMSerivce.cs" />
+    <Compile Include="SPCSDPartRxAGCXMRService.cs" />
+    <Compile Include="SPCSDPartRxFreqPointSerivce.cs" />
+    <Compile Include="SPCSDPartRxFreqPointXMRService.cs" />
+    <Compile Include="SPCSDPartRxIFGainXMRService.cs" />
+    <Compile Include="SPCSDPartRxPowerSerivce.cs" />
+    <Compile Include="SPCSDPartRxPowerXMRService.cs" />
+    <Compile Include="SPCSDPartTxGainXMRService.cs" />
+    <Compile Include="SPCSDPartTxLoPowerXMRService.cs" />
+    <Compile Include="SPCSDPartTxPowerSerivce.cs" />
+    <Compile Include="SPCSDPartTxPowerXMRService.cs" />
+    <Compile Include="SPCStationLineLossService.cs" />
+    <Compile Include="SPCStationLineLossItemService.cs" />
+    <Compile Include="SPCTxPowerService.cs" />
+    <Compile Include="SYSStationService.cs" />
+    <Compile Include="TemCirculationService.cs" />
+    <Compile Include="TxCableService.cs" />
+    <Compile Include="TxCalService.cs" />
+    <Compile Include="TxPowerService.cs" />
+    <Compile Include="Utility\Encrytor.cs" />
+    <Compile Include="Utility\WebUtitlity.cs" />
+    <Compile Include="SPCRxPowerService.cs" />
+    <Compile Include="SPCTxMaskFlatService.cs" />
+    <Compile Include="SMTModelFileInduceService.cs" />
+    <Compile Include="SPCRxPowerItemService.cs" />
+    <Compile Include="SPCTxMaskFlatItemService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WaveLab.DAL\WaveLab.DAL.csproj">
+      <Project>{9BAA35FD-717A-44C3-B000-CB9089930C5F}</Project>
+      <Name>WaveLab.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WaveLab.IDAL\WaveLab.IDAL.csproj">
+      <Project>{45D578F4-F42E-4474-85EB-683CD8202988}</Project>
+      <Name>WaveLab.IDAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WaveLab.IService\WaveLab.IService.csproj">
+      <Project>{A4493951-E052-4F17-8E34-CFD110873461}</Project>
+      <Name>WaveLab.IService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WaveLab.Model\WaveLab.Model.csproj">
+      <Project>{FEF002D7-5340-4108-9E7B-CE31B1B3DC31}</Project>
+      <Name>WaveLab.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Config\Service.xml" />
+    <EmbeddedResource Include="Config\ServiceBase.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

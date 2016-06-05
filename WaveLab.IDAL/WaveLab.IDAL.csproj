@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{45D578F4-F42E-4474-85EB-683CD8202988}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaveLab.IDAL</RootNamespace>
+    <AssemblyName>WaveLab.IDAL</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ISPCTxPowerItem.cs" />
+    <Compile Include="ISYSAction.cs" />
+    <Compile Include="ISMTBomCoorPattern.cs" />
+    <Compile Include="ISMTConsignProcess.cs" />
+    <Compile Include="ISMTCPTemplate.cs" />
+    <Compile Include="ISMTDocument.cs" />
+    <Compile Include="ISMTFileInduce.cs" />
+    <Compile Include="IFQARxResult.cs" />
+    <Compile Include="IFQATxMask.cs" />
+    <Compile Include="IFQATxMaskFlat.cs" />
+    <Compile Include="IFQATxPower.cs" />
+    <Compile Include="IFQATxSpur.cs" />
+    <Compile Include="IFrequency.cs" />
+    <Compile Include="ISYSFunctionControl.cs" />
+    <Compile Include="IGeneralInit.cs" />
+    <Compile Include="IIFBDataRange.cs" />
+    <Compile Include="IIFBTestResult.cs" />
+    <Compile Include="IInformationConfirm.cs" />
+    <Compile Include="IInjurant.cs" />
+    <Compile Include="IInjurantType.cs" />
+    <Compile Include="ILabelCode.cs" />
+    <Compile Include="IMAMDataRange.cs" />
+    <Compile Include="IMAMTestResult.cs" />
+    <Compile Include="IMAMType.cs" />
+    <Compile Include="IMaterialType.cs" />
+    <Compile Include="IMCT.cs" />
+    <Compile Include="IMCTReport.cs" />
+    <Compile Include="ISYSMenu.cs" />
+    <Compile Include="IMIMeasureData.cs" />
+    <Compile Include="ISYSModuleType.cs" />
+    <Compile Include="IMWMTestResult.cs" />
+    <Compile Include="INTRxMicro.cs" />
+    <Compile Include="INTRxMSE.cs" />
+    <Compile Include="INTRxPower.cs" />
+    <Compile Include="INTSensitivity.cs" />
+    <Compile Include="INTTxMask.cs" />
+    <Compile Include="INTTxMaskFlat.cs" />
+    <Compile Include="INTTxSpur.cs" />
+    <Compile Include="ISMTPCBPriorityItem.cs" />
+    <Compile Include="ISMTPCBSteelMesh.cs" />
+    <Compile Include="IProduct.cs" />
+    <Compile Include="IProductBom.cs" />
+    <Compile Include="IProtocolInit.cs" />
+    <Compile Include="IReport.cs" />
+    <Compile Include="IReportGroup.cs" />
+    <Compile Include="ISYSRole.cs" />
+    <Compile Include="ISYSRoleMenuMap.cs" />
+    <Compile Include="IRxCal.cs" />
+    <Compile Include="IRxResult.cs" />
+    <Compile Include="ISampleTemplate.cs" />
+    <Compile Include="ISYSSection.cs" />
+    <Compile Include="ISYSSecurityMaster.cs" />
+    <Compile Include="ISerialNo.cs" />
+    <Compile Include="ISYSSerialNoGenerator.cs" />
+    <Compile Include="ISPCEmailContainer.cs" />
+    <Compile Include="ISPCProject.cs" />
+    <Compile Include="ISPCFixtureDataInput.cs" />
+    <Compile Include="ISPCFixtureInsertionLoss.cs" />
+    <Compile Include="ISPCFixtureItem.cs" />
+    <Compile Include="ISPCFixtureReturnLoss.cs" />
+    <Compile Include="ISPCParameter.cs" />
+    <Compile Include="ISPCPullingForce.cs" />
+    <Compile Include="ISPCPullingForceMonthly.cs" />
+    <Compile Include="ISPCPullingForceTarget.cs" />
+    <Compile Include="ISPCPullingForceWeekly.cs" />
+    <Compile Include="ISPCSDPartMAM.cs" />
+    <Compile Include="ISPCSDPartMWM.cs" />
+    <Compile Include="ISPCSDPartRxAGCXMR.cs" />
+    <Compile Include="ISPCSDPartRxFreqPoint.cs" />
+    <Compile Include="ISPCSDPartRxFreqPointXMR.cs" />
+    <Compile Include="ISPCSDPartRxIFGainXMR.cs" />
+    <Compile Include="ISPCSDPartRxPower.cs" />
+    <Compile Include="ISPCSDPartRxPowerXMR.cs" />
+    <Compile Include="ISPCSDPartTxGainXMR.cs" />
+    <Compile Include="ISPCSDPartTxLoPowerXMR.cs" />
+    <Compile Include="ISPCSDPartTxPower.cs" />
+    <Compile Include="ISPCSDPartTxPowerXMR.cs" />
+    <Compile Include="ISPCStationLineLossItem.cs" />
+    <Compile Include="ISPCStationLineLoss.cs" />
+    <Compile Include="ISPCTxPower.cs" />
+    <Compile Include="ISYSStation.cs" />
+    <Compile Include="ITemCirculation.cs" />
+    <Compile Include="ITxCable.cs" />
+    <Compile Include="ITxCal.cs" />
+    <Compile Include="ITxPower.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ISPCRxPower.cs" />
+    <Compile Include="ISPCTxMaskFlat.cs" />
+    <Compile Include="ISMTModelFileInduce.cs" />
+    <Compile Include="ISPCRxPowerItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WaveLab.Model\WaveLab.Model.csproj">
+      <Project>{FEF002D7-5340-4108-9E7B-CE31B1B3DC31}</Project>
+      <Name>WaveLab.Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ISPCTxMaskFlatItem.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

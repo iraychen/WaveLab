@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+
+  <object id="transactionManager" type="Spring.Data.Core.AdoPlatformTransactionManager, Spring.Data" lazy-init="true">
+    <property name="DbProvider" ref="dbProvider"/>
+  </object>
+ 
+
+  <!--事物管理器-->
+  <object id="BaseTransactionManager"  type="Spring.Transaction.Interceptor.TransactionProxyFactoryObject, Spring.Data" abstract="true" lazy-init="true">
+    <property name="PlatformTransactionManager" ref="transactionManager"/>
+    <property name="TransactionAttributes">
+      <name-values>
+        <!--查询-->
+        <add key="Query*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--增加-->
+        <add key="Save*" value="PROPAGATION_REQUIRED"/>
+        <!--修改-->
+        <add key="Update*" value="PROPAGATION_REQUIRED"/>
+        <!--删除-->
+        <add key="Delete*" value="PROPAGATION_REQUIRED"/>
+        <!--导入-->
+        <add key="Import*" value="PROPAGATION_REQUIRED"/>
+        <!--导出报表-->
+        <add key="Export*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--获取-->
+        <add key="Get*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--记录是否存在-->
+        <add key="CheckExists*" value="PROPAGATION_SUPPORTS,readOnly"/>
+        <!--其它-->
+        <add key="*" value="PROPAGATION_SUPPORTS,readOnly"/>
+      </name-values>
+    </property>
+  </object>
+
+</objects>

@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects xmlns="http://www.springframework.net">
+  <!--Station-->
+  <object id="DAL.SYSStation" type="WaveLab.DAL.SYSStation,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <!--SPC Project-->
+  <object id="DAL.SPCProject" type="WaveLab.DAL.SPCProject,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <!--Standard Part Tx Power-->
+  <object id="DAL.SPCSDPartTxPower" type="WaveLab.DAL.SPCSDPartTxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartTxPowerXMR" type="WaveLab.DAL.SPCSDPartTxPowerXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <!--Standard Part Rx Power-->
+  <object id="DAL.SPCSDPartRxPower" type="WaveLab.DAL.SPCSDPartRxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartRxPowerXMR" type="WaveLab.DAL.SPCSDPartRxPowerXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <!--Standard Part Rx FreqPoint-->
+  <object id="DAL.SPCSDPartRxFreqPoint" type="WaveLab.DAL.SPCSDPartRxFreqPoint,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartRxFreqPointXMR" type="WaveLab.DAL.SPCSDPartRxFreqPointXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <!--Standard Part MAM-->
+  <object id="DAL.SPCSDPartMAM" type="WaveLab.DAL.SPCSDPartMAM,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartTxLoPowerXMR" type="WaveLab.DAL.SPCSDPartTxLoPowerXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartRxAGCXMR" type="WaveLab.DAL.SPCSDPartRxAGCXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <!--Standard Part MWM-->
+  <object id="DAL.SPCSDPartMWM" type="WaveLab.DAL.SPCSDPartMWM,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartTxGainXMR" type="WaveLab.DAL.SPCSDPartTxGainXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCSDPartRxIFGainXMR" type="WaveLab.DAL.SPCSDPartRxIFGainXMR,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <!--SPC-->
+  <object id="DAL.SPCParameter" type="WaveLab.DAL.SPCParameter,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCTxPowerItem" type="WaveLab.DAL.SPCTxPowerItem,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <object id="DAL.SPCTxPower" type="WaveLab.DAL.SPCTxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCRxPowerItem" type="WaveLab.DAL.SPCRxPowerItem,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCRxPower" type="WaveLab.DAL.SPCRxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCTxMaskFlatItem" type="WaveLab.DAL.SPCTxMaskFlatItem,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <object id="DAL.SPCTxMaskFlat" type="WaveLab.DAL.SPCTxMaskFlat,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <object id="DAL.LabelCode" type="WaveLab.DAL.LabelCode,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCPullingForceTarget" type="WaveLab.DAL.SPCPullingForceTarget,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCPullingForce" type="WaveLab.DAL.SPCPullingForce,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCPullingForceWeekly" type="WaveLab.DAL.SPCPullingForceWeekly,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCPullingForceMonthly" type="WaveLab.DAL.SPCPullingForceMonthly,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <!--Line/Return/Insertion Loss-->
+  <object id="DAL.SPCStationLineLossItem" type="WaveLab.DAL.SPCStationLineLossItem,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCStationLineLoss" type="WaveLab.DAL.SPCStationLineLoss,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCFixtureItem" type="WaveLab.DAL.SPCFixtureItem,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCFixtureDataInput" type="WaveLab.DAL.SPCFixtureDataInput,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <object id="DAL.SPCFixtureReturnLoss" type="WaveLab.DAL.SPCFixtureReturnLoss,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCFixtureInsertionLoss" type="WaveLab.DAL.SPCFixtureInsertionLoss,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SPCEmailContainer" type="WaveLab.DAL.SPCEmailContainer,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <!--Auto Testing System -->
+  <object id="DAL.GeneralInit" type="WaveLab.DAL.GeneralInit,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.TxCal" type="WaveLab.DAL.TxCal,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.TxCable" type="WaveLab.DAL.TxCable,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.TxPower" type="WaveLab.DAL.TxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.RxCal" type="WaveLab.DAL.RxCal,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.RxResult" type="WaveLab.DAL.RxResult,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.NTRxPower" type="WaveLab.DAL.NTRxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.NTRxMSE" type="WaveLab.DAL.NTRxMSE,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.NTSensitivity" type="WaveLab.DAL.NTSensitivity,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.NTTxMask" type="WaveLab.DAL.NTTxMask,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.NTTxMaskFlat" type="WaveLab.DAL.NTTxMaskFlat,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.NTTxSpur" type="WaveLab.DAL.NTTxSpur,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.NTRxMicro" type="WaveLab.DAL.NTRxMicro,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <object id="DAL.TemCirculation" type="WaveLab.DAL.TemCirculation,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.ProtocolInit" type="WaveLab.DAL.ProtocolInit,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.InformationConfirm" type="WaveLab.DAL.InformationConfirm,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.FQARxResult" type="WaveLab.DAL.FQARxResult,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.FQATxPower" type="WaveLab.DAL.FQATxPower,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.FQATxMask" type="WaveLab.DAL.FQATxMask,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.FQATxMaskFlat" type="WaveLab.DAL.FQATxMaskFlat,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.FQATxSpur" type="WaveLab.DAL.FQATxSpur,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SerialNo" type="WaveLab.DAL.SerialNo,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MIMeasureData" type="WaveLab.DAL.MIMeasureData,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.XmlUploadLog" type="WaveLab.DAL.XmlUploadLog,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MAMTestResult" type="WaveLab.DAL.MAMTestResult,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MWMTestResult" type="WaveLab.DAL.MWMTestResult,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.IFBTestResult" type="WaveLab.DAL.IFBTestResult,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.Frequency" type="WaveLab.DAL.Frequency,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MAMDataRange" type="WaveLab.DAL.MAMDataRange,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MAMType" type="WaveLab.DAL.MAMType,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.IFBDataRange" type="WaveLab.DAL.IFBDataRange,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <!--Material Component Table-->
+  <object id="DAL.Product" type="WaveLab.DAL.Product,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.InjurantType" type="WaveLab.DAL.InjurantType,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.Injurant" type="WaveLab.DAL.Injurant,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.MaterialType" type="WaveLab.DAL.MaterialType,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.ProductBom" type="WaveLab.DAL.ProductBom,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MCT" type="WaveLab.DAL.MCT,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.MCTReport" type="WaveLab.DAL.MCTReport,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <!--Consign Process-->
+  <object id="DAL.SMTPCBSteelMesh" type="WaveLab.DAL.SMTPCBSteelMesh,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.SMTBomCoorPattern" type="WaveLab.DAL.SMTBomCoorPattern,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSModuleType" type="WaveLab.DAL.SYSModuleType,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.SMTFileInduce" type="WaveLab.DAL.SMTFileInduce,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.SMTPCBPriorityItem" type="WaveLab.DAL.SMTPCBPriorityItem,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  <object id="DAL.SMTDocument" type="WaveLab.DAL.SMTDocument,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSFunctionControl" type="WaveLab.DAL.SYSFunctionControl,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SMTCPTemplate" type="WaveLab.DAL.SMTCPTemplate,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SMTModelFileInduce" type="WaveLab.DAL.SMTModelFileInduce,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+
+  <object id="DAL.SMTConsignProcess" type="WaveLab.DAL.SMTConsignProcess,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSSerialNoGenerator" type="WaveLab.DAL.SYSSerialNoGenerator,WaveLab.DAL" lazy-init="true">
+    <constructor-arg name="dbProvider" ref="dbProvider"/>
+  </object>
+
+ 
+
+  <!-- Access Right-->
+  <object id="DAL.SYSSection" type="WaveLab.DAL.SYSSection,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSSecurityMaster" type="WaveLab.DAL.SYSSecurityMaster,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSMenu" type="WaveLab.DAL.SYSMenu,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSRole" type="WaveLab.DAL.SYSRole,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SYSAction" type="WaveLab.DAL.SYSAction,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.SampleTemplate" type="WaveLab.DAL.SampleTemplate,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+  <!--Report-->
+  <object id="DAL.ReportGroup" type="WaveLab.DAL.ReportGroup,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+
+  <object id="DAL.Report" type="WaveLab.DAL.Report,WaveLab.DAL" lazy-init="true">
+    <property name="AdoTemplate" ref="adoTemplate"/>
+  </object>
+  
+</objects>

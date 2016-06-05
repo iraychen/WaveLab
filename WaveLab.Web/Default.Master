@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.Master.cs" Inherits="WaveLab.Web.DefaultMaster_Default" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>无标题页</title>
+ 
+    <link type="text/css" href="css/jquery-ui-1.8.17.custom.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
+    <script type ="text/javascript" src ="js/sys.common.js" ></script>
+    <script type ="text/javascript" src ="js/jquery.maskedinput-1.2.2.js" ></script>
+    <script type ="text/javascript" src ="js/jquery-ui-1.8.17.custom.js" ></script>
+    <asp:ContentPlaceHolder ID="headPlaceHolder" runat="server"> 
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <ajaxToolkit:ToolkitScriptManager ID="AjaxScriptManager1" runat="Server"  EnableScriptGlobalization="true" EnableScriptLocalization="true"/>
+        <asp:ContentPlaceHolder ID="bodyPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
